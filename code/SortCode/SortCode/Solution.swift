@@ -26,6 +26,23 @@ class Solution: NSObject {
         return arr
     }
     
+    func buboSort2(_ arr:inout [Int]) -> Void {
+        var flag = true
+        var j = arr.count, i = j - 1
+        while flag && i > 0 {
+            flag = false
+            for j in 0..<i {
+                if arr[j] > arr[j+1] {
+                    let t = arr[j]
+                    arr[j] = arr[j+1]
+                    arr[j+1] = t
+                    flag = true
+                }
+            }
+            i-=1
+        }
+    }
+    
     func partition(_ arr:inout [Int], low:Int, high:Int) -> Int {
         
         let root = arr[high]

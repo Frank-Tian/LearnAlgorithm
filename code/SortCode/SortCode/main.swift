@@ -14,6 +14,10 @@ let s = Solution()
 var arr = [7,2,1,8,4,5,6,9,0,3]
 s.printArr(s.buboSort(&arr))
 
+var arrr = [7,2,1,8,4,5,6,9,0,3]
+s.buboSort2(&arrr)
+s.printArr(arrr)
+
 var arr1 = [7,2,1,8,4,5,6,9,0,3]
 s.quickSort(&arr1, low: 0, high: arr1.count - 1)
 s.printArr(arr1)
