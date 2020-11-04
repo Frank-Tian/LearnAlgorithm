@@ -26,4 +26,7 @@ var arr2 = [7,2,1,8,4,5,6,9,0,3]
 s.insertSort(&arr2, n: arr2.count - 1)
 s.printArr(arr2)
 
+var arr3 = [7,2,1,8,4,5,6,9,0,3]
+s.binarySearchInsertSort(&arr3)
+s.printArr(arr3)
 

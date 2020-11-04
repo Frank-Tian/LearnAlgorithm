@@ -73,7 +73,6 @@ class Solution: NSObject {
     
     func insertSort(_ arr:inout [Int], n: Int) -> Void {
         var j = 0, t = 0
-        print("arr:\(arr)")
 
         for i in 1...n {
             t = arr[i]
@@ -83,6 +82,27 @@ class Solution: NSObject {
                 j -= 1
             }
             arr[j+1] = t
+        }
+    }
+    
+    func binarySearchInsertSort(_ arr:inout [Int]) -> Void {
+        var t = 0, low = 0, hight = 0, mid = -1
+        for i in 1..<arr.count {
+            t = arr[i]
+            low = 0
+            hight = i - 1
+            while low <= hight {
+                mid = (low + hight) / 2
+                if t < arr[mid] {
+                    hight = mid - 1
+                } else {
+                    low = mid + 1
+                }
+            }
+            for j in stride(from: i - 1, through: low, by: -1) {
+                arr[j+1] = arr[j]
+            }
+            arr[low] = t
         }
     }
 }
