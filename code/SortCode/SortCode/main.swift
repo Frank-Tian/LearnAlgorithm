@@ -22,4 +22,8 @@ var arr1 = [7,2,1,8,4,5,6,9,0,3]
 s.quickSort(&arr1, low: 0, high: arr1.count - 1)
 s.printArr(arr1)
 
+var arr2 = [7,2,1,8,4,5,6,9,0,3]
+s.insertSort(&arr2, n: arr2.count - 1)
+s.printArr(arr2)
+
 

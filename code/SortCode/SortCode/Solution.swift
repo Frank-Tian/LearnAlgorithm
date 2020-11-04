@@ -70,4 +70,19 @@ class Solution: NSObject {
         quickSort(&arr, low: low, high: sortIndex - 1)
         quickSort(&arr, low: sortIndex + 1, high: high)
     }
+    
+    func insertSort(_ arr:inout [Int], n: Int) -> Void {
+        var j = 0, t = 0
+        print("arr:\(arr)")
+
+        for i in 1...n {
+            t = arr[i]
+            j = i - 1
+            while j >= 0 && t < arr[j] {
+                arr.swapAt(j+1, j)
+                j -= 1
+            }
+            arr[j+1] = t
+        }
+    }
 }
