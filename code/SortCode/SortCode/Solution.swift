@@ -73,7 +73,7 @@ class Solution: NSObject {
     
     func insertSort(_ arr:inout [Int], n: Int) -> Void {
         var j = 0, t = 0
-
+        
         for i in 1...n {
             t = arr[i]
             j = i - 1
@@ -105,4 +105,24 @@ class Solution: NSObject {
             arr[low] = t
         }
     }
+    
+    func selectSort(_ arr:inout [Int]) -> Void {
+        var d = 0
+        for i in 0..<arr.count {
+            d = i
+            for j in i..<arr.count {
+                if arr[j] < arr[d] {
+                    d = j
+                }
+            }
+            if d != i {
+                arr.swapAt(i, d)
+                // t = arr[d]
+                // arr[d] = arr[i]
+                // arr[i] = t
+            }
+        }
+    }
+    
+    
 }

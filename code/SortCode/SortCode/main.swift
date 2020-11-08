@@ -30,3 +30,6 @@ var arr3 = [7,2,1,8,4,5,6,9,0,3]
 s.binarySearchInsertSort(&arr3)
 s.printArr(arr3)
 
+var arr4 = [7,2,1,8,4,5,6,9,0,3]
+s.selectSort(&arr4)
+s.printArr(arr4)
