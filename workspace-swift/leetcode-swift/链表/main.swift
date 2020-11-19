@@ -63,5 +63,35 @@ let popValue = linkedList2.pop()
 print(popValue!)    // 10
 print(linkedList2)  // 11 -> 12 -> 13 -> 14 -> 15 -> 100 -> 16 -> 17 -> 18 -> 19
 
+// ---------------------------------------------
 
+linkedList2.removeLast()
+print(linkedList2)  // 11 -> 12 -> 13 -> 14 -> 15 -> 100 -> 16 -> 17 -> 18
+
+// ---------------------------------------------
+
+let node = linkedList2.node(at: 3)!
+print(node.val)     // 14
+let removedVal = linkedList2.remove(after: node)!
+print(removedVal)   // 15, after
+print(linkedList2)  // 11 -> 12 -> 13 -> 14 -> 100 -> 16 -> 17 -> 18
+
+// ---------------------------------------------
+
+var list = LinkedList<Int>()
+for i in 0..<10 {
+    list.append(i)
+}
+
+print("list: \(list)")  // 11 -> 12 -> 13 -> 14 -> 100 -> 16 -> 17 -> 18
+print("First: \(list[list.startIndex])")    // First: 0
+print("Array Containing first 3 elements: \(Array(list.prefix(3)))") // Array Containing first 3 elements: [0, 1, 2]
+print("Array Containing last 3 elements: \(Array(list.suffix(3)))")  // Array Containing last 3 elements: [7, 8, 9]
+
+let sum = list.reduce(0, +)
+print("sum of all values: \(sum)")  // sum of all values: 45
+// print("Last: \(list[list.endIndex])")
+
+
+// ---------------------------------------------
 
