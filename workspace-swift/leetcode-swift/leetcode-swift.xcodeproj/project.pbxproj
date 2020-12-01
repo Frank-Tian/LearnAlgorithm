@@ -23,6 +23,7 @@
 		AB3E46FE2560C4D200DB31E6 /* 88.合并两个有序数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3E46FD2560C4D200DB31E6 /* 88.合并两个有序数组.swift */; };
 		AB6277C72564A095003D9DE6 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6277B025649FFC003D9DE6 /* LinkedList.swift */; };
 		AB6277CE2564A0BF003D9DE6 /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6277B82564A063003D9DE6 /* List.swift */; };
+		AB95EADE257604AC004F8189 /* 704.二分查找.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB95EADD257604AC004F8189 /* 704.二分查找.swift */; };
 		ABEFE3C92560C535002DD575 /* 125.验证回文串.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEFE3C82560C535002DD575 /* 125.验证回文串.swift */; };
 		ABEFE3D12560C586002DD575 /* 136.只出现一次的数字.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEFE3D02560C586002DD575 /* 136.只出现一次的数字.swift */; };
 		ABEFE3D92560C5B6002DD575 /* 169.多数元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEFE3D82560C5B6002DD575 /* 169.多数元素.swift */; };
@@ -118,6 +119,7 @@
 		AB3E46FD2560C4D200DB31E6 /* 88.合并两个有序数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "88.合并两个有序数组.swift"; sourceTree = "<group>"; };
 		AB6277B025649FFC003D9DE6 /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
 		AB6277B82564A063003D9DE6 /* List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
+		AB95EADD257604AC004F8189 /* 704.二分查找.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "704.二分查找.swift"; sourceTree = "<group>"; };
 		ABEFE3C82560C535002DD575 /* 125.验证回文串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "125.验证回文串.swift"; sourceTree = "<group>"; };
 		ABEFE3D02560C586002DD575 /* 136.只出现一次的数字.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "136.只出现一次的数字.swift"; sourceTree = "<group>"; };
 		ABEFE3D82560C5B6002DD575 /* 169.多数元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "169.多数元素.swift"; sourceTree = "<group>"; };
@@ -237,6 +239,7 @@
 			children = (
 				AB1D3BD02560C66400A5FAA8 /* main.swift */,
 				AB1D3BDB2561314100A5FAA8 /* binarySearch.swift */,
+				AB95EADD257604AC004F8189 /* 704.二分查找.swift */,
 			);
 			path = "查找";
 			sourceTree = "<group>";
@@ -484,6 +487,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB1D3BDC2561314100A5FAA8 /* binarySearch.swift in Sources */,
+				AB95EADE257604AC004F8189 /* 704.二分查找.swift in Sources */,
 				AB1D3BD12560C66400A5FAA8 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
