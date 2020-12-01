@@ -25,6 +25,7 @@
 		AB6277CE2564A0BF003D9DE6 /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6277B82564A063003D9DE6 /* List.swift */; };
 		AB95EADE257604AC004F8189 /* 704.二分查找.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB95EADD257604AC004F8189 /* 704.二分查找.swift */; };
 		AB95EAE72576077A004F8189 /* 35.搜索插入位置.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB95EAE62576077A004F8189 /* 35.搜索插入位置.swift */; };
+		AB95EAF025760E23004F8189 /* 34.在排序数组中查找元素的第一个和最后一个位置.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB95EAEF25760E23004F8189 /* 34.在排序数组中查找元素的第一个和最后一个位置.swift */; };
 		ABEFE3C92560C535002DD575 /* 125.验证回文串.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEFE3C82560C535002DD575 /* 125.验证回文串.swift */; };
 		ABEFE3D12560C586002DD575 /* 136.只出现一次的数字.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEFE3D02560C586002DD575 /* 136.只出现一次的数字.swift */; };
 		ABEFE3D92560C5B6002DD575 /* 169.多数元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEFE3D82560C5B6002DD575 /* 169.多数元素.swift */; };
@@ -122,6 +123,7 @@
 		AB6277B82564A063003D9DE6 /* List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
 		AB95EADD257604AC004F8189 /* 704.二分查找.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "704.二分查找.swift"; sourceTree = "<group>"; };
 		AB95EAE62576077A004F8189 /* 35.搜索插入位置.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "35.搜索插入位置.swift"; sourceTree = "<group>"; };
+		AB95EAEF25760E23004F8189 /* 34.在排序数组中查找元素的第一个和最后一个位置.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "34.在排序数组中查找元素的第一个和最后一个位置.swift"; sourceTree = "<group>"; };
 		ABEFE3C82560C535002DD575 /* 125.验证回文串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "125.验证回文串.swift"; sourceTree = "<group>"; };
 		ABEFE3D02560C586002DD575 /* 136.只出现一次的数字.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "136.只出现一次的数字.swift"; sourceTree = "<group>"; };
 		ABEFE3D82560C5B6002DD575 /* 169.多数元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "169.多数元素.swift"; sourceTree = "<group>"; };
@@ -243,6 +245,7 @@
 				AB1D3BDB2561314100A5FAA8 /* binarySearch.swift */,
 				AB95EADD257604AC004F8189 /* 704.二分查找.swift */,
 				AB95EAE62576077A004F8189 /* 35.搜索插入位置.swift */,
+				AB95EAEF25760E23004F8189 /* 34.在排序数组中查找元素的第一个和最后一个位置.swift */,
 			);
 			path = "查找";
 			sourceTree = "<group>";
@@ -489,6 +492,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB95EAF025760E23004F8189 /* 34.在排序数组中查找元素的第一个和最后一个位置.swift in Sources */,
 				AB95EAE72576077A004F8189 /* 35.搜索插入位置.swift in Sources */,
 				AB1D3BDC2561314100A5FAA8 /* binarySearch.swift in Sources */,
 				AB95EADE257604AC004F8189 /* 704.二分查找.swift in Sources */,

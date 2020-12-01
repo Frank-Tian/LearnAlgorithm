@@ -31,3 +31,10 @@ print(searchInsert35(nums4, 5))
 print(searchInsert35(nums4, 2))
 print(searchInsert35(nums4, 7))
 print(searchInsert35(nums4, 0))
+
+print("-------------")
+let nums5 = [5, 7, 7, 8, 8, 10]
+print(searchRange34(nums5, 8))
+print(searchRange34(nums5, 6))
+print(searchRange34(nums5, 0))
+print(searchRange34(nums5, 5))
