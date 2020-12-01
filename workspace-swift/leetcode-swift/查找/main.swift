@@ -24,3 +24,10 @@ print(search704(nums2, 2))
 
 let nums3 = [5]
 print(search704(nums3, 5))
+
+print("-------------")
+let nums4 = [1, 3, 5, 6]
+print(searchInsert35(nums4, 5))
+print(searchInsert35(nums4, 2))
+print(searchInsert35(nums4, 7))
+print(searchInsert35(nums4, 0))
