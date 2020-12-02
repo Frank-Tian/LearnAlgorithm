@@ -43,4 +43,7 @@ print("------剑指Offer53-I-------")
 print(search(nums5, 8)) // 2
 print(search(nums5, 6)) // 0
 
+print("------167-------")
+let numbers = [2, 7, 11, 15]
+print(twoSum(numbers, 9)) // 
 
