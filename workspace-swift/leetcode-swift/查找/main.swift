@@ -38,3 +38,9 @@ print(searchRange34(nums5, 8))
 print(searchRange34(nums5, 6))
 print(searchRange34(nums5, 0))
 print(searchRange34(nums5, 5))
+
+print("------剑指Offer53-I-------")
+print(search(nums5, 8)) // 2
+print(search(nums5, 6)) // 0
+
+
